@@ -7,26 +7,29 @@
     font-style: normal;
 }
 
-header > img{
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 460px;
-    height: 64px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
+#cotainer{
+    /* height: 3158px; */
     margin: 0 auto;
     max-width: 1200px;
-    height: 170px;
-    align-items: center;
-    padding: 35px 20px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* outro modo de fazer: */
+/* header > img{ */
+    /* align-items: center;
+    display: block;
+    margin: auto; */
+    
+header{
+    text-align: center;
 }
 
 #menu{
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     list-style: none;
     justify-content: space-around;
 }
@@ -34,11 +37,36 @@ header{
 #menu a{
     text-decoration: none;
     color: #0176C0;
-    padding: 8px 18px;
-    
 }
 
 main > img{
     width: 100%;
     align-items: center;
+}
+
+#sessao-produtos{
+    display: grid;
+    /* width: 1200px; */
+    grid-template-columns: 1fr 1fr;
+    background: #0176C0;
+    align-items: center;
+}
+
+#texto-produto >img{
+    display: flex;
+    
+}
+
+
+#texto-produto{
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    text-align: left;
+    
+}
+
+#texto-produto >h2{
+    font-size: 3rem;
+    
 }
