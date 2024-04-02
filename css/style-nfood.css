@@ -7,14 +7,14 @@
     font-style: normal;
 }
 
-#cotainer{
+#container{
     /* height: 3158px; */
     margin: 0 auto;
     max-width: 1200px;
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* outro modo de fazer: */
@@ -44,29 +44,50 @@ main > img{
     align-items: center;
 }
 
-#sessao-produtos{
+#destaque-produtos{
     display: grid;
     /* width: 1200px; */
     grid-template-columns: 1fr 1fr;
     background: #0176C0;
     align-items: center;
+
 }
 
-#texto-produto >img{
-    display: flex;
-    
+#texto-img{
+    display: grid;
+    justify-content: end;
+
 }
 
 
 #texto-produto{
-    display: flex;
-    gap: 10px;
-    padding: 0;
-    text-align: left;
-    
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    justify-content: start;
+    margin-left: 30px;
 }
 
-#texto-produto >h2{
+#texto-produto >p{
+    font-family: Inter;
     font-size: 3rem;
-    
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+    text-align: start;
+    padding: 0;
+}
+
+h6{
+    color: #6CC62F;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1px;
+    text-align: left;
+
+}
+
+.sessoes{
+    grid-template-columns: 3fr 3fr;
 }
