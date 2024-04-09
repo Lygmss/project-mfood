@@ -15,6 +15,7 @@
 
 body{
     margin: 0;
+    padding: 0 auto;
 }
 
 /* outro modo de fazer: */
@@ -202,4 +203,39 @@ footer{
     margin-top: -25px;
     align-content: center;
     color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+    #container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #menu{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #destaque-produtos{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sessoes{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #localizacao{
+        display: flex;
+        flex-direction: column;
+    }
+    #localizacao img{
+        width: 100%;
+        height: 100%;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
