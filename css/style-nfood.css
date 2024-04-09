@@ -52,13 +52,11 @@ main > img{
     grid-template-columns: 1fr 1fr;
     background: #0176C0;
     align-items: center;
-
 }
 
 #texto-img{
     display: grid;
     justify-content: end;
-
 }
 
 
@@ -143,7 +141,6 @@ h6{
     height: 594px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 #localizacao  h4{
@@ -164,13 +161,14 @@ h6{
     height: 60px;
     font-size: 1.3rem;  
 }
-
 #footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px;
     text-align: left;
-
+}
+footer{
+    background: #fff;
 }
 
 #footer li{
