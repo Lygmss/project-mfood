@@ -165,4 +165,43 @@ h6{
     font-size: 1.3rem;  
 }
 
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    text-align: left;
 
+}
+
+#footer li{
+    padding: 15px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+#footer p{
+    text-align: start;
+}
+
+#redes-sociais{
+    background: #0176C0;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    /* flex-direction: row; */
+    padding: 90px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#direitos{
+    background: #6CC62F;
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    height: 42px;
+    margin-top: -25px;
+    align-content: center;
+    color: #fff;
+}
