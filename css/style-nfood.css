@@ -213,11 +213,13 @@ footer{
     #menu{
         width: 100%;
         margin: 0 auto;
+        display: none;
     }
     #destaque-produtos{
         display: flex;
         flex-direction: column;
-        
+        font-size: 0.5rem;
+        padding: 10px 10px;
     }
     .sessoes{
         display: flex;
@@ -227,6 +229,9 @@ footer{
     #localizacao{
         display: flex;
         flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding-bottom: 50px;
     }
     #localizacao img{
         width: 100%;
@@ -236,6 +241,4 @@ footer{
         display: flex;
         flex-direction: column;
     }
-
-
 }
