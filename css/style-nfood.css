@@ -220,7 +220,19 @@ footer{
         flex-direction: column;
         font-size: 0.5rem;
         padding: 10px 10px;
+        background-image: url(../img-produto-maca.png) no-repeat center center;
+        background-size: cover;
+        padding: 30px;
     }
+    #texto-produto{
+        background: #0176C0D7;
+        padding: 10px;
+    }
+
+    #texto-img{
+        display: none;
+    }
+
     .sessoes{
         display: flex;
         flex-direction: column;
@@ -241,4 +253,20 @@ footer{
         display: flex;
         flex-direction: column;
     }
+
+    #icone-mobile{
+        display: flex;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+
 }
