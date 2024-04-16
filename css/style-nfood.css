@@ -205,6 +205,14 @@ footer{
     color: #fff;
 }
 
+#desktop-mapa{
+    display: flex;
+}
+
+#mobile-mapa{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
     #container{
         width: 100%;
@@ -215,22 +223,57 @@ footer{
         margin: 0 auto;
         display: none;
     }
+
+    #menu{
+        display: none;
+    }
+
+
+    #menu li{
+        margin: 15px 0;
+        
+    }
+
+    .show-menu{                    
+        animation: slideDown 2s ease;        
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
     #destaque-produtos{
         display: flex;
         flex-direction: column;
-        font-size: 0.5rem;
-        padding: 10px 10px;
-        background-image: url(../img-produto-maca.png) no-repeat center center;
+        /* font-size: 0.5rem;
+        padding: 10px 10px; */
+        background: url(../img/img-produto-maca.png) no-repeat center center;
         background-size: cover;
         padding: 30px;
     }
+
     #texto-produto{
         background: #0176C0D7;
-        padding: 10px;
+        padding: 20px;
+    }
+
+    #texto-produto p{
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     #texto-img{
         display: none;
+        width: 100%;
     }
 
     .sessoes{
@@ -261,6 +304,17 @@ footer{
     #logo{
         display: flex;
         justify-content: space-between;
+    }
+
+    #desktop-mapa{
+        display: none;
+    }
+    
+    #mobile-mapa{
+        display: flex;
+    }
+    #texto-local h4{
+        font-size: 2.375rem;
     }
 
 

@@ -11,7 +11,11 @@
 <body>
     <div id="container">
      <header>
-        <img src="img/logo.png" alt="logo">
+        <div id="logo">  
+            <img src="img/logo.png" alt="logo">
+            <i id="icone-mobile" onclick="menuMobile()" class="fa-solid fa-bars fa-4x"></i>
+        </div>
+      
         <div>
             <nav>
              <ul id="menu">
@@ -37,7 +41,7 @@
                     <div><h6>Ver mais...</h6></div>
                 </div> 
                 <div id="texto-img">
-                    <img src="img-produto-maca.png" alt="">
+                    <img src="img/img-produto-maca.png" alt="">
                 </div>
             </div>
 
@@ -58,15 +62,22 @@
             </div>
 
             <div id="localizacao">
-                <div>
-                    <img src="img/e1e9d6dbce38bcb00301687fc2f17592.png" alt="">
+                <div id="desktop-mapa">
+                    <img src="img/mapa.png" alt="">
                 </div>
+                <div id="mobile-mapa">
+                    <img src="img/Rectangle 3.png" alt="">
+                </div>
+                
                 <div id="texto-local">
                     <h4>Venha nos visitar e conhecer nossa plantação!</h4>
                     <button id="btn" type="button">Agendar</button>
                 </div>
             </div>
 
+        </main>
+
+            <footer>
             <div id="footer">
                 <div>
                     <p>Páginas Principais</p>
@@ -98,17 +109,12 @@
                         <li>Localização</li>
                     </ul>
                 </div>
-                <!-- importacao JQUERY(biblioteca JS) -->
-        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
-        <script>
-            const menuMobile = () => {
-                $('#menu').toggle().addClass('show-menu')
-            }
-        </script>
+        
 
 
             </div>
+        
+            
 
             <div id="redes-sociais">
                 <div class="img3">
@@ -121,11 +127,22 @@
                     <img src="img/youtube-square.png" alt="">
                 </div>
             </div>
+            
+            
+             <div id="direitos"> 
+                   <h5>© NFood - 2024 - Todos os direitos reservados</h5>
+             </div>
+            </footer>
+        
 
-            <div id="direitos"> 
-                  <h5>© NFood - 2024 - Todos os direitos reservados</h5>
-            </div> 
-        </main>
+         <!-- importacao JQUERY(biblioteca JS) -->
+         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+         <script>
+            const menuMobile = () => {
+               $('#menu').toggle().addClass('show-menu')
+           }
+        </script>
 
     </div>
 </body>
